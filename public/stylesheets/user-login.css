@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../image/loginBackground.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #636466;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.login-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #dee0e1;
+  border-radius: 3px;
+  background-color: white;
+  width: 702px;
+  height: 550px;
+  /* margin: auto;
+  margin-top: 24px; */
+}
+
+#logo {
+  position: relative;
+  color: rgb(185, 43, 39);
+  text-decoration: none;
+  font-family: serif;
+  font-size: 63px;
+  font-weight: bold;
+  top: 15px;
+}
+
+a#logo:hover {
+  color: #c66d6a;
+  cursor: pointer;
+}
+
+#logo-desc {
+  position: relative;
+  font-weight: bold;
+  top: 5px;
+}
+
+#login-title-container {
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #dee0e1;
+  width: 300px;
+  top: 15px;
+}
+
+#login-title {
+  color: #282829;
+  font-size: 16px;
+  margin-left: -9px;
+}
+
+.login-form {
+  position: relative;
+  display: block;
+  width: 320px;
+  top: 5px;
+}
+
+.label-control {
+  color: #282829;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.form-control {
+  margin-top: 5px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #dee0e1;
+  border-radius: 3px;
+  margin: 10px;
+  text-indent: 5px;
+}
+
+.form-control:hover {
+  border-color: #2E69ff;
+  cursor: text;
+}
+
+.form-control:focus {
+  border-color: #2E69ff;
+}
+
+.button {
+  background-color: #2E69ff;
+  color: white;
+  border-radius: 20px;
+  width: 80px;
+  height: 35px;
+  border: none; 
+  margin-top: 5px;
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0040e1;
+  cursor: pointer;
+}
+
+.button:active {
+  color: rgb(210, 210, 210);
+}
+
+#login-button {
+  margin-left: 50px;
+}
+
+.demo-button {
+  position: relative;
+  left: 170px;
+  bottom: 40px;
+}
+
+.already {
+  position: relative;
+  bottom: 30px;
+  text-decoration: none;
+}
+
+.already:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.agree {
+  position: relative;
+  bottom: 40px;
+  font-size: 14px;
+  text-align: center;
+  color: #a2a2a2;
+}
+
+.login-footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f1f2f2;
+  width: 100%;
+  height: 52px;
+  bottom: 0px;
+  font-size: 10px;
+}
+
+.our-story {
+  text-decoration: none;
+}
+
+.our-story:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.linkedIn {
+  color: rgb(185, 43, 39);
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.linkedIn:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}

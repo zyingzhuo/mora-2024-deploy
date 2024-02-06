@@ -1,0 +1,116 @@
+.developer-Jessi,
+.developer-Nick {
+  margin-top: 10px;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  border: solid rgb(215, 215, 215) 1px;
+  padding: 20px;
+  /* background-color: #0A66C2; */
+}
+
+.developer-link {
+  display: flex;
+  gap: 20px;
+}
+
+.developer-Kristy,
+.developer-Jack {
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  border: solid rgb(215, 215, 215) 1px;
+  padding: 20px;
+}
+
+.developers-container {
+  width: 100%;
+  position: relative;
+}
+
+.developer-name {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+
+  color: rgb(185, 43, 39);;
+}
+
+.developer-intr, 
+.developer-image img{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.developer-image img {
+  border-radius: 50%;
+}
+
+.developer-story {
+  color: grey;
+  line-height: 25px;
+}
+
+.portfolio-icon, 
+.github-icon, 
+.linkedIn-icon {
+  font-size: 30px;
+  color: grey;
+}
+
+.portfolio-icon:hover {
+  color: #b92b27;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.github-icon:hover {
+  color: rgb(106, 43, 208);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.linkedIn-icon:hover {
+  color: #0A66C2;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* .login-footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  width: 100%;
+  height: 52px;
+  bottom: -60px;
+  font-size: 10px;
+}
+
+.our-story {
+  text-decoration: none;
+}
+
+.our-story:hover {
+  text-decoration: underline;
+}
+
+.linkedIn {
+  color: rgb(185, 43, 39);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linkedIn:hover {
+  color: #c66d6a;
+} */
